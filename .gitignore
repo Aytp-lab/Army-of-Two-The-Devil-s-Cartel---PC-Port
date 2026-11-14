@@ -1,0 +1,25 @@
+# Game files and anything produced from them – never commit.
+extracted_disc/
+extracted_hd/
+*.iso
+*.xex
+**/generated/
+
+# SDK checkouts/packages (fetched separately, see README).
+tools/
+
+# Build output, packages, logs, user data.
+analysis/*
+!analysis/native-tools/
+build/
+out/
+*.dll
+*.exe
+*.pdb
+*.obj
+*.lib
+*.zip
+logs/
+profiles/
+captures/
+__pycache__/
