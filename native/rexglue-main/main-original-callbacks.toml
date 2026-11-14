@@ -1,0 +1,807 @@
+# Original .rdata references plus independently generated Xenon functions.
+# Bodies with Xenon diagnostic traps are excluded.
+# SDK validates and infers extents; runtime coverage is not claimed.
+
+# Original .rdata reference: 0x82A009DC
+[functions."0x82CD4C18"]
+name = "sub_82CD4C18"
+
+# Original .rdata reference: 0x82A07D94
+[functions."0x82CE0D30"]
+name = "sub_82CE0D30"
+
+# Original .rdata reference: 0x82A07D8C
+[functions."0x82CE0D40"]
+name = "sub_82CE0D40"
+
+# Original .rdata reference: 0x82A07D80
+[functions."0x82CE0D50"]
+name = "sub_82CE0D50"
+
+# Original .rdata reference: 0x82A07D78
+[functions."0x82CE0D60"]
+name = "sub_82CE0D60"
+
+# Original .rdata reference: 0x82A07D68
+[functions."0x82CE0D70"]
+name = "sub_82CE0D70"
+
+# Original .rdata reference: 0x82A0F9AC
+[functions."0x82D7A478"]
+name = "sub_82D7A478"
+
+# Original .rdata reference: 0x82A0FAB0
+[functions."0x82D7B130"]
+name = "sub_82D7B130"
+
+# Original .rdata reference: 0x82A0F900
+[functions."0x82D81878"]
+name = "sub_82D81878"
+
+# Original .rdata reference: 0x82A0F954
+[functions."0x82D81880"]
+name = "sub_82D81880"
+
+# Original .rdata reference: 0x82A0F8FC
+[functions."0x82D81890"]
+name = "sub_82D81890"
+
+# Original .rdata reference: 0x82A0F92C
+[functions."0x82D81898"]
+name = "sub_82D81898"
+
+# Original .rdata reference: 0x82A0F904
+[functions."0x82D818A0"]
+name = "sub_82D818A0"
+
+# Original .rdata reference: 0x82A0F930
+[functions."0x82D818A8"]
+name = "sub_82D818A8"
+
+# Original .rdata reference: 0x82A0F934
+[functions."0x82D818B0"]
+name = "sub_82D818B0"
+
+# Original .rdata reference: 0x82A0F91C
+[functions."0x82D818B8"]
+name = "sub_82D818B8"
+
+# Original .rdata reference: 0x82A0F918
+[functions."0x82D818C0"]
+name = "sub_82D818C0"
+
+# Original .rdata reference: 0x82A0F948
+[functions."0x82D818C8"]
+name = "sub_82D818C8"
+
+# Original .rdata reference: 0x82A0F93C
+[functions."0x82D818D0"]
+name = "sub_82D818D0"
+
+# Original .rdata reference: 0x82A0F950
+[functions."0x82D818D8"]
+name = "sub_82D818D8"
+
+# Original .rdata reference: 0x82A0F94C
+[functions."0x82D818E0"]
+name = "sub_82D818E0"
+
+# Original .rdata reference: 0x82A0F938
+[functions."0x82D818E8"]
+name = "sub_82D818E8"
+
+# Original .rdata reference: 0x82A0F928
+[functions."0x82D81900"]
+name = "sub_82D81900"
+
+# Original .rdata reference: 0x82A10D18
+[functions."0x82D94458"]
+name = "sub_82D94458"
+
+# Original .rdata reference: 0x82A10D60
+[functions."0x82D94478"]
+name = "sub_82D94478"
+
+# Original .rdata reference: 0x82A10B54
+[functions."0x82D94BB0"]
+name = "sub_82D94BB0"
+
+# Original .rdata reference: 0x82A10B94
+[functions."0x82D94BE0"]
+name = "sub_82D94BE0"
+
+# Original .rdata reference: 0x82A10BB0
+[functions."0x82D94C98"]
+name = "sub_82D94C98"
+
+# Original .rdata reference: 0x82A10BD4
+[functions."0x82D94D58"]
+name = "sub_82D94D58"
+
+# Original .rdata reference: 0x82A10BF8
+[functions."0x82D94D90"]
+name = "sub_82D94D90"
+
+# Original .rdata reference: 0x82A10BF4
+[functions."0x82D94DB0"]
+name = "sub_82D94DB0"
+
+# Original .rdata reference: 0x82A10C30
+[functions."0x82D94E60"]
+name = "sub_82D94E60"
+
+# Original .rdata reference: 0x82A10C54
+[functions."0x82D94F28"]
+name = "sub_82D94F28"
+
+# Original .rdata reference: 0x82A10C90
+[functions."0x82D95000"]
+name = "sub_82D95000"
+
+# Original .rdata reference: 0x82A12E8C
+[functions."0x82DD3508"]
+name = "sub_82DD3508"
+
+# Original .rdata reference: 0x82A1461C
+[functions."0x82DDC018"]
+name = "sub_82DDC018"
+
+# Original .rdata reference: 0x82A14B54
+[functions."0x82DF5960"]
+name = "sub_82DF5960"
+
+# Original .rdata reference: 0x82A15E4C
+[functions."0x82E1E9A8"]
+name = "sub_82E1E9A8"
+
+# Original .rdata reference: 0x82A16184
+[functions."0x82E2C6D0"]
+name = "sub_82E2C6D0"
+
+# Original .rdata reference: 0x82A4F15C
+[functions."0x82EFA518"]
+name = "sub_82EFA518"
+
+# Original .rdata reference: 0x82A37460
+[functions."0x82F3F0B0"]
+name = "sub_82F3F0B0"
+
+# Original .rdata reference: 0x82A37488
+[functions."0x82F3F158"]
+name = "sub_82F3F158"
+
+# Original .rdata reference: 0x82A3C4C0
+[functions."0x82F75DE0"]
+name = "sub_82F75DE0"
+
+# Original .rdata reference: 0x82A3C4C4
+[functions."0x82F75DF8"]
+name = "sub_82F75DF8"
+
+# Original .rdata reference: 0x82A3CFB0
+[functions."0x82F84410"]
+name = "sub_82F84410"
+
+# Original .rdata reference: 0x82A3E038
+[functions."0x82F95748"]
+name = "sub_82F95748"
+
+# Original .rdata reference: 0x82A3FE14
+[functions."0x82FCE480"]
+name = "sub_82FCE480"
+
+# Original .rdata reference: 0x82A3FE88
+[functions."0x82FCE540"]
+name = "sub_82FCE540"
+
+# Original .rdata reference: 0x82A3FE60
+[functions."0x82FCE558"]
+name = "sub_82FCE558"
+
+# Original .rdata reference: 0x82A3FCF0
+[functions."0x82FCE568"]
+name = "sub_82FCE568"
+
+# Original .rdata reference: 0x82A3FD98
+[functions."0x82FCE580"]
+name = "sub_82FCE580"
+
+# Original .rdata reference: 0x82A3FDA4
+[functions."0x82FCE588"]
+name = "sub_82FCE588"
+
+# Original .rdata reference: 0x82A3FDA8
+[functions."0x82FCE590"]
+name = "sub_82FCE590"
+
+# Original .rdata reference: 0x82A4538C
+[functions."0x82FE7688"]
+name = "sub_82FE7688"
+
+# Original .rdata reference: 0x82A45390
+[functions."0x82FE7690"]
+name = "sub_82FE7690"
+
+# Original .rdata reference: 0x82A45040
+[functions."0x82FE7E50"]
+name = "sub_82FE7E50"
+
+# Original .rdata reference: 0x82A4503C
+[functions."0x82FE7E58"]
+name = "sub_82FE7E58"
+
+# Original .rdata reference: 0x82A44E40
+[functions."0x82FE9168"]
+name = "sub_82FE9168"
+
+# Original .rdata reference: 0x82A44E54
+[functions."0x82FE92C0"]
+name = "sub_82FE92C0"
+
+# Original .rdata reference: 0x82A4532C
+[functions."0x82FE9CD8"]
+name = "sub_82FE9CD8"
+
+# Original .rdata reference: 0x82A45338
+[functions."0x82FE9CF0"]
+name = "sub_82FE9CF0"
+
+# Original .rdata reference: 0x82A45054
+[functions."0x82FEC4E0"]
+name = "sub_82FEC4E0"
+
+# Original .rdata reference: 0x82A45F58
+[functions."0x83009150"]
+name = "sub_83009150"
+
+# Original .rdata reference: 0x82A45F70
+[functions."0x830091D0"]
+name = "sub_830091D0"
+
+# Original .rdata reference: 0x82A4A288
+[functions."0x83032260"]
+name = "sub_83032260"
+
+# Original .rdata reference: 0x82A49240
+[functions."0x83032568"]
+name = "sub_83032568"
+
+# Original .rdata reference: 0x82A4C2E8
+[functions."0x830611F0"]
+name = "sub_830611F0"
+
+# Original .rdata reference: 0x82A4CD64
+[functions."0x83072700"]
+name = "sub_83072700"
+
+# Original .rdata reference: 0x82A4E1B0
+[functions."0x830856A8"]
+name = "sub_830856A8"
+
+# Original .rdata reference: 0x82A3E708
+[functions."0x83086E48"]
+name = "sub_83086E48"
+
+# Original .rdata reference: 0x82A4EADC
+[functions."0x8309C030"]
+name = "sub_8309C030"
+
+# Original .rdata reference: 0x82A4EAD8
+[functions."0x8309C038"]
+name = "sub_8309C038"
+
+# Original .rdata reference: 0x82A4EAAC
+[functions."0x8309C040"]
+name = "sub_8309C040"
+
+# Original .rdata reference: 0x82A4F208
+[functions."0x830E6660"]
+name = "sub_830E6660"
+
+# Original .rdata reference: 0x82A4F210
+[functions."0x830E6670"]
+name = "sub_830E6670"
+
+# Original .rdata reference: 0x82A054F8
+[functions."0x8310CD50"]
+name = "sub_8310CD50"
+
+# Original .rdata reference: 0x82A52FD0
+[functions."0x8310CD60"]
+name = "sub_8310CD60"
+
+# Original .rdata reference: 0x82A544FC
+[functions."0x8311F7D8"]
+name = "sub_8311F7D8"
+
+# Original .rdata reference: 0x82A58CCC
+[functions."0x83156210"]
+name = "sub_83156210"
+
+# Original .rdata reference: 0x82A58AC0
+[functions."0x83156258"]
+name = "sub_83156258"
+
+# Original .rdata reference: 0x82A58998
+[functions."0x831562A0"]
+name = "sub_831562A0"
+
+# Original .rdata reference: 0x82A5898C
+[functions."0x831562A8"]
+name = "sub_831562A8"
+
+# Original .rdata reference: 0x82A58A20
+[functions."0x831562D0"]
+name = "sub_831562D0"
+
+# Original .rdata reference: 0x82A58A18
+[functions."0x831562D8"]
+name = "sub_831562D8"
+
+# Original .rdata reference: 0x82A58A10
+[functions."0x831562E0"]
+name = "sub_831562E0"
+
+# Original .rdata reference: 0x82A59358
+[functions."0x8315BDB8"]
+name = "sub_8315BDB8"
+
+# Original .rdata reference: 0x82A59D58
+[functions."0x8315C5D8"]
+name = "sub_8315C5D8"
+
+# Original .rdata reference: 0x82A59D5C
+[functions."0x8315C5F0"]
+name = "sub_8315C5F0"
+
+# Original .rdata reference: 0x82A5A44C
+[functions."0x8315D7C0"]
+name = "sub_8315D7C0"
+
+# Original .rdata reference: 0x82A56974
+[functions."0x83180198"]
+name = "sub_83180198"
+
+# Original .rdata reference: 0x82AA2FB4
+[functions."0x832AD390"]
+name = "sub_832AD390"
+
+# Original .rdata reference: 0x82AAA400
+[functions."0x8330DB98"]
+name = "sub_8330DB98"
+
+# Original .rdata reference: 0x82AAEBF8
+[functions."0x83365CC8"]
+name = "sub_83365CC8"
+
+# Original .rdata reference: 0x82AAFDA4
+[functions."0x83379090"]
+name = "sub_83379090"
+
+# Original .rdata reference: 0x82AAFF64
+[functions."0x833790A8"]
+name = "sub_833790A8"
+
+# Original .rdata reference: 0x82AAFF30
+[functions."0x833790F0"]
+name = "sub_833790F0"
+
+# Original .rdata reference: 0x82AB0940
+[functions."0x83383210"]
+name = "sub_83383210"
+
+# Original .rdata reference: 0x82AB09A0
+[functions."0x83383290"]
+name = "sub_83383290"
+
+# Original .rdata reference: 0x82AB0914
+[functions."0x833832A0"]
+name = "sub_833832A0"
+
+# Original .rdata reference: 0x82AB1490
+[functions."0x833891D0"]
+name = "sub_833891D0"
+
+# Original .rdata reference: 0x82AB2D3C
+[functions."0x8339EA88"]
+name = "sub_8339EA88"
+
+# Original .rdata reference: 0x82AB5944
+[functions."0x833C5A60"]
+name = "sub_833C5A60"
+
+# Original .rdata reference: 0x82AB9DA0
+[functions."0x834159E8"]
+name = "sub_834159E8"
+
+# Original .rdata reference: 0x82ABA484
+[functions."0x83416B60"]
+name = "sub_83416B60"
+
+# Original .rdata reference: 0x82ABA788
+[functions."0x83417128"]
+name = "sub_83417128"
+
+# Original .rdata reference: 0x82ABEEC8
+[functions."0x83438940"]
+name = "sub_83438940"
+
+# Original .rdata reference: 0x82ABFC70
+[functions."0x83447FB8"]
+name = "sub_83447FB8"
+
+# Original .rdata reference: 0x82A3E1C0
+[functions."0x834511F0"]
+name = "sub_834511F0"
+
+# Original .rdata reference: 0x82AC1450
+[functions."0x8345EB78"]
+name = "sub_8345EB78"
+
+# Original .rdata reference: 0x82AC1520
+[functions."0x8345EBE0"]
+name = "sub_8345EBE0"
+
+# Original .rdata reference: 0x82AB2C24
+[functions."0x83489020"]
+name = "sub_83489020"
+
+# Original .rdata reference: 0x82AC9DEC
+[functions."0x83517110"]
+name = "sub_83517110"
+
+# Original .rdata reference: 0x82AC9718
+[functions."0x83517D08"]
+name = "sub_83517D08"
+
+# Original .rdata reference: 0x82ADED00
+[functions."0x83649AD8"]
+name = "sub_83649AD8"
+
+# Original .rdata reference: 0x82AE0218
+[functions."0x83660760"]
+name = "sub_83660760"
+
+# Original .rdata reference: 0x82AE36C0
+[functions."0x83699830"]
+name = "sub_83699830"
+
+# Original .rdata reference: 0x82AE5998
+[functions."0x836C09F8"]
+name = "sub_836C09F8"
+
+# Original .rdata reference: 0x82AE6C70
+[functions."0x836D3670"]
+name = "sub_836D3670"
+
+# Original .rdata reference: 0x82AEEF8C
+[functions."0x83748BA0"]
+name = "sub_83748BA0"
+
+# Original .rdata reference: 0x82AF87EC
+[functions."0x837C02A0"]
+name = "sub_837C02A0"
+
+# Original .rdata reference: 0x82AF87F0
+[functions."0x837C02A8"]
+name = "sub_837C02A8"
+
+# Original .rdata reference: 0x82AF87F4
+[functions."0x837C02B0"]
+name = "sub_837C02B0"
+
+# Original .rdata reference: 0x82B55BC8
+[functions."0x838F3E10"]
+name = "sub_838F3E10"
+
+# Original .rdata reference: 0x82B56488
+[functions."0x8390D458"]
+name = "sub_8390D458"
+
+# Original .rdata reference: 0x82B5725C
+[functions."0x839327B8"]
+name = "sub_839327B8"
+
+# Original .rdata reference: 0x82A5DBF0
+[functions."0x839359E8"]
+name = "sub_839359E8"
+
+# Original .rdata reference: 0x82B57DCC
+[functions."0x839359F8"]
+name = "sub_839359F8"
+
+# Original .rdata reference: 0x82B58850
+[functions."0x839513E8"]
+name = "sub_839513E8"
+
+# Original .rdata reference: 0x82B58BAC
+[functions."0x83954D00"]
+name = "sub_83954D00"
+
+# Original .rdata reference: 0x82B58BB4
+[functions."0x83954DC0"]
+name = "sub_83954DC0"
+
+# Original .rdata reference: 0x82B58BB8
+[functions."0x83954DD8"]
+name = "sub_83954DD8"
+
+# Original .rdata reference: 0x82B599E8
+[functions."0x83965BB8"]
+name = "sub_83965BB8"
+
+# Original .rdata reference: 0x82B5B094
+[functions."0x83986990"]
+name = "sub_83986990"
+
+# Original .rdata reference: 0x82B5C518
+[functions."0x839ABBB8"]
+name = "sub_839ABBB8"
+
+# Original .rdata reference: 0x82B5C500
+[functions."0x839ABBD0"]
+name = "sub_839ABBD0"
+
+# Original .rdata reference: 0x82B5C51C
+[functions."0x839ABBE8"]
+name = "sub_839ABBE8"
+
+# Original .rdata reference: 0x82B5C504
+[functions."0x839ABC00"]
+name = "sub_839ABC00"
+
+# Original .rdata reference: 0x82B5C508
+[functions."0x839ABC18"]
+name = "sub_839ABC18"
+
+# Original .rdata reference: 0x82B5C50C
+[functions."0x839ABC30"]
+name = "sub_839ABC30"
+
+# Original .rdata reference: 0x82B5C510
+[functions."0x839ABC48"]
+name = "sub_839ABC48"
+
+# Original .rdata reference: 0x82B5C514
+[functions."0x839ABC60"]
+name = "sub_839ABC60"
+
+# Original .rdata reference: 0x82B5CCD8
+[functions."0x839C9060"]
+name = "sub_839C9060"
+
+# Original .rdata reference: 0x82B6055C
+[functions."0x83A131A0"]
+name = "sub_83A131A0"
+
+# Original .rdata reference: 0x82C16680
+[functions."0x83A4219C"]
+name = "sub_83A4219C"
+
+# Original .rdata reference: 0x82C167D8
+[functions."0x83A4B7C0"]
+name = "sub_83A4B7C0"
+
+# Original .rdata reference: 0x82C167F8
+[functions."0x83A4B918"]
+name = "sub_83A4B918"
+
+# Original .rdata reference: 0x82C16828
+[functions."0x83A4BDC4"]
+name = "sub_83A4BDC4"
+
+# Original .rdata reference: 0x82C168C8
+[functions."0x83A52958"]
+name = "sub_83A52958"
+
+# Original .rdata reference: 0x82B63BAC
+[functions."0x83A61340"]
+name = "sub_83A61340"
+
+# Original .rdata reference: 0x82B63BB8
+[functions."0x83A61358"]
+name = "sub_83A61358"
+
+# Original .rdata reference: 0x82B90024
+[functions."0x83A8D868"]
+name = "sub_83A8D868"
+
+# Original .rdata reference: 0x82B93248
+[functions."0x83A95548"]
+name = "sub_83A95548"
+
+# Original .rdata reference: 0x82B9C918
+[functions."0x83B1C940"]
+name = "sub_83B1C940"
+
+# Original .rdata reference: 0x82BA1654
+[functions."0x83B3CC40"]
+name = "sub_83B3CC40"
+
+# Original .rdata reference: 0x82BA1658
+[functions."0x83B3CC50"]
+name = "sub_83B3CC50"
+
+# Original .rdata reference: 0x82BACBF0
+[functions."0x83BC71A8"]
+name = "sub_83BC71A8"
+
+# Original .rdata reference: 0x82BACBF4
+[functions."0x83BC71B0"]
+name = "sub_83BC71B0"
+
+# Original .rdata reference: 0x82BACC90
+[functions."0x83BC7E80"]
+name = "sub_83BC7E80"
+
+# Original .rdata reference: 0x82BACC94
+[functions."0x83BC7E90"]
+name = "sub_83BC7E90"
+
+# Original .rdata reference: 0x82BACCC8
+[functions."0x83BC87F8"]
+name = "sub_83BC87F8"
+
+# Original .rdata reference: 0x82BACCCC
+[functions."0x83BC8808"]
+name = "sub_83BC8808"
+
+# Original .rdata reference: 0x82BBDBF8
+[functions."0x83C70DB0"]
+name = "sub_83C70DB0"
+
+# Original .rdata reference: 0x82BC1E08
+[functions."0x83C83978"]
+name = "sub_83C83978"
+
+# Original .rdata reference: 0x82BC1FC8
+[functions."0x83C8CCC8"]
+name = "sub_83C8CCC8"
+
+# Original .rdata reference: 0x82BC1FB4
+[functions."0x83C8CCD0"]
+name = "sub_83C8CCD0"
+
+# Original .rdata reference: 0x82BC1FD4
+[functions."0x83C8CCD8"]
+name = "sub_83C8CCD8"
+
+# Original .rdata reference: 0x82BC1FBC
+[functions."0x83C8CCE0"]
+name = "sub_83C8CCE0"
+
+# Original .rdata reference: 0x82BC1FFC
+[functions."0x83C8CCE8"]
+name = "sub_83C8CCE8"
+
+# Original .rdata reference: 0x82BC1FD0
+[functions."0x83C8CCF8"]
+name = "sub_83C8CCF8"
+
+# Original .rdata reference: 0x82BC1FB0
+[functions."0x83C8CD58"]
+name = "sub_83C8CD58"
+
+# Original .rdata reference: 0x82BC236C
+[functions."0x83C91CD0"]
+name = "sub_83C91CD0"
+
+# Original .rdata reference: 0x82BC1FE4
+[functions."0x83C91CE0"]
+name = "sub_83C91CE0"
+
+# Original .rdata reference: 0x82BC1FCC
+[functions."0x83C91CE8"]
+name = "sub_83C91CE8"
+
+# Original .rdata reference: 0x82BC1FC4
+[functions."0x83C91CF0"]
+name = "sub_83C91CF0"
+
+# Original .rdata reference: 0x82BC1FB8
+[functions."0x83C93088"]
+name = "sub_83C93088"
+
+# Original .rdata reference: 0x82BC2350
+[functions."0x83C93090"]
+name = "sub_83C93090"
+
+# Original .rdata reference: 0x82BC2320
+[functions."0x83C93098"]
+name = "sub_83C93098"
+
+# Original .rdata reference: 0x82BC1FF0
+[functions."0x83C930A0"]
+name = "sub_83C930A0"
+
+# Original .rdata reference: 0x82BC1FF4
+[functions."0x83C930A8"]
+name = "sub_83C930A8"
+
+# Original .rdata reference: 0x82BC1FC0
+[functions."0x83C930B0"]
+name = "sub_83C930B0"
+
+# Original .rdata reference: 0x82BC2454
+[functions."0x83C930B8"]
+name = "sub_83C930B8"
+
+# Original .rdata reference: 0x82BC2514
+[functions."0x83C93810"]
+name = "sub_83C93810"
+
+# Original .rdata reference: 0x82BC24A8
+[functions."0x83C944A8"]
+name = "sub_83C944A8"
+
+# Original .rdata reference: 0x82BC256C
+[functions."0x83C95200"]
+name = "sub_83C95200"
+
+# Original .rdata reference: 0x82BC273C
+[functions."0x83C980F0"]
+name = "sub_83C980F0"
+
+# Original .rdata reference: 0x82C16950
+[functions."0x83CA1D00"]
+name = "sub_83CA1D00"
+
+# Original .rdata reference: 0x82BC6530
+[functions."0x83CA6118"]
+name = "sub_83CA6118"
+
+# Original .rdata reference: 0x82BC65A4
+[functions."0x83CA6128"]
+name = "sub_83CA6128"
+
+# Original .rdata reference: 0x82BC6644
+[functions."0x83CA78B8"]
+name = "sub_83CA78B8"
+
+# Original .rdata reference: 0x82BC6648
+[functions."0x83CA78C8"]
+name = "sub_83CA78C8"
+
+# Original .rdata reference: 0x82BE9A84
+[functions."0x83D518D0"]
+name = "sub_83D518D0"
+
+# Original .rdata reference: 0x82BE9734
+[functions."0x83D53678"]
+name = "sub_83D53678"
+
+# Original .rdata reference: 0x82BE9748
+[functions."0x83D53688"]
+name = "sub_83D53688"
+
+# Original .rdata reference: 0x82BE9E30
+[functions."0x83D64010"]
+name = "sub_83D64010"
+
+# Original .rdata reference: 0x82BEC638
+[functions."0x83D701D8"]
+name = "sub_83D701D8"
+
+# Original .rdata reference: 0x82BF0974
+[functions."0x83D7F340"]
+name = "sub_83D7F340"
+
+# Original .rdata reference: 0x82BF099C
+[functions."0x83D7F360"]
+name = "sub_83D7F360"
+
+# Original .rdata reference: 0x82BF0358
+[functions."0x83D80560"]
+name = "sub_83D80560"
+
+# Original .rdata reference: 0x82BF0684
+[functions."0x83D86EF0"]
+name = "sub_83D86EF0"
+
+# Original .rdata reference: 0x82C0CB28
+[functions."0x83E2E000"]
+name = "sub_83E2E000"
+
+# Original .rdata reference: 0x82C0CB1C
+[functions."0x83E2E008"]
+name = "sub_83E2E008"

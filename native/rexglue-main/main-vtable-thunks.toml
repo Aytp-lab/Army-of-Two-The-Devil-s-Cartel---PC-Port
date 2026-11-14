@@ -1,0 +1,119 @@
+# Exact original four-instruction virtual-call thunks.
+ # Evidence: analysis/main-vtable-tailcall-candidates.json.
+ # Extents remain SDK-inferred; runtime coverage is not claimed.
+
+# Original words: 81830000 816C005C 7D6903A6 4E800420
+[functions."0x82DF5950"]
+name = "sub_82DF5950"
+
+# Original words: 81830000 816C003C 7D6903A6 4E800420
+[functions."0x83D39808"]
+name = "sub_83D39808"
+
+# Original words: 81830000 816C0040 7D6903A6 4E800420
+[functions."0x83D39818"]
+name = "sub_83D39818"
+
+# Original words: 81830000 816C0050 7D6903A6 4E800420
+[functions."0x83D39828"]
+name = "sub_83D39828"
+
+# Original words: 81830000 816C0060 7D6903A6 4E800420
+[functions."0x83D39838"]
+name = "sub_83D39838"
+
+# Original words: 81830000 816C0064 7D6903A6 4E800420
+[functions."0x83D39848"]
+name = "sub_83D39848"
+
+# Original words: 81830000 816C0038 7D6903A6 4E800420
+[functions."0x83D39858"]
+name = "sub_83D39858"
+
+# Original words: 81830000 816C0000 7D6903A6 4E800420
+[functions."0x83D53D20"]
+name = "sub_83D53D20"
+
+# Original words: 81830000 816C0010 7D6903A6 4E800420
+[functions."0x83D701C8"]
+name = "sub_83D701C8"
+
+# Original words: 81830000 816C0008 7D6903A6 4E800420
+[functions."0x83D701F0"]
+name = "sub_83D701F0"
+
+# Original words: 81830000 816C00E4 7D6903A6 4E800420
+[functions."0x83D80420"]
+name = "sub_83D80420"
+
+# Original words: 81830000 816C00F4 7D6903A6 4E800420
+[functions."0x83D80430"]
+name = "sub_83D80430"
+
+# Original words: 81830000 816C002C 7D6903A6 4E800420
+[functions."0x83D80440"]
+name = "sub_83D80440"
+
+# Original words: 81830000 816C00C8 7D6903A6 4E800420
+[functions."0x83D80450"]
+name = "sub_83D80450"
+
+# Original words: 81830000 816C00D8 7D6903A6 4E800420
+[functions."0x83D80460"]
+name = "sub_83D80460"
+
+# Original words: 81830000 816C00E8 7D6903A6 4E800420
+[functions."0x83D80470"]
+name = "sub_83D80470"
+
+# Original words: 81830000 816C0030 7D6903A6 4E800420
+[functions."0x83D80480"]
+name = "sub_83D80480"
+
+# Original words: 81830000 816C00AC 7D6903A6 4E800420
+[functions."0x83D80490"]
+name = "sub_83D80490"
+
+# Original words: 81830000 816C00CC 7D6903A6 4E800420
+[functions."0x83D804A0"]
+name = "sub_83D804A0"
+
+# Original words: 81830000 816C00DC 7D6903A6 4E800420
+[functions."0x83D804B0"]
+name = "sub_83D804B0"
+
+# Original words: 81830000 816C00EC 7D6903A6 4E800420
+[functions."0x83D804C0"]
+name = "sub_83D804C0"
+
+# Original words: 81830000 816C00A0 7D6903A6 4E800420
+[functions."0x83D804D0"]
+name = "sub_83D804D0"
+
+# Original words: 81830000 816C0034 7D6903A6 4E800420
+[functions."0x83D804E0"]
+name = "sub_83D804E0"
+
+# Original words: 81830000 816C00C0 7D6903A6 4E800420
+[functions."0x83D804F0"]
+name = "sub_83D804F0"
+
+# Original words: 81830000 816C00D0 7D6903A6 4E800420
+[functions."0x83D80500"]
+name = "sub_83D80500"
+
+# Original words: 81830000 816C00E0 7D6903A6 4E800420
+[functions."0x83D80520"]
+name = "sub_83D80520"
+
+# Original words: 81830000 816C00F0 7D6903A6 4E800420
+[functions."0x83D80530"]
+name = "sub_83D80530"
+
+# Original words: 81830000 816C0018 7D6903A6 4E800420
+[functions."0x83D80540"]
+name = "sub_83D80540"
+
+# Original words: 81830000 816C0028 7D6903A6 4E800420
+[functions."0x83D80550"]
+name = "sub_83D80550"

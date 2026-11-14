@@ -1,0 +1,49 @@
+diff --git a/native/rexglue-main/generated/ao4.main/ao4_main_pch.h b/native/rexglue-main/generated/ao4.main/ao4_main_pch.h
+index 3e89edb..5b7a2c5 100644
+--- a/native/rexglue-main/generated/ao4.main/ao4_main_pch.h
++++ b/native/rexglue-main/generated/ao4.main/ao4_main_pch.h
+@@ -345,21 +345,27 @@ inline std::atomic<i32>& ppc_global_lock_count_() {
+   return count;
+ }
+ 
+-#define REX_CHECK_GLOBAL_LOCK()                                        \
+-  ([&]() -> u64 {                                                      \
+-    auto lock_ = rex::thread::global_critical_region::AcquireDirect(); \
+-    return ppc_global_lock_count_().load() ? 0 : 0x8000;               \
+-  }())
+-
+-#define REX_ENTER_GLOBAL_LOCK()                          \
+-  do {                                                   \
+-    rex::thread::global_critical_region::mutex().lock(); \
+-    ppc_global_lock_count_().fetch_add(1);               \
+-  } while (0)
++// AO4 port: guest "interrupts off" (mtmsrd r13 / mfmsr) only affects the own hardware thread on
++// the Xbox 360; the other five keep running. The generic translation took one global recursive
++// mutex for every such section (around each lwarx/stwcx atomic of the job system: two lock round
++// trips per atomic, all six guest threads serialised; profiled at ~60% of the main thread in
++// busy split-screen scenes). Every guest thread has its own PCR here, so the interrupt state is
++// kept per thread when AO4_MSR_THREAD_LOCAL=1 (experiment; no measurable FPS gain at the split-
++// screen hotspot, where synchronous resolve readback is the limit). Default: original global lock.
++inline bool ppc_msr_global_lock_() {
++  static const bool global = [] {
++    const char* v = std::getenv("AO4_MSR_THREAD_LOCAL");
++    return !(v && v[0] == '1');
++  }();
++  return global;
++}
++inline i32& ppc_msr_thread_count_() {
++  thread_local i32 count = 0;
++  return count;
++}
+ 
+-#define REX_LEAVE_GLOBAL_LOCK()                                                           \
+-  do {                                                                                    \
+-    auto old_count_ = ppc_global_lock_count_().fetch_sub(1);                              \
+-    assert(old_count_ >= 1 && "LeaveGlobalLock called without matching EnterGlobalLock"); \
+-    rex::thread::global_critical_region::mutex().unlock();                                \
+-  } while (0)
++#define REX_CHECK_GLOBAL_LOCK()                                            ([&]() -> u64 {                                                            if (!ppc_msr_global_lock_()) return ppc_msr_thread_count_() ? 0 : 0x8000;     auto lock_ = rex::thread::global_critical_region::AcquireDirect();       return ppc_global_lock_count_().load() ? 0 : 0x8000;                   }())
++
++#define REX_ENTER_GLOBAL_LOCK()                              do {                                                         if (!ppc_msr_global_lock_()) {                               ++ppc_msr_thread_count_();                               } else {                                                     rex::thread::global_critical_region::mutex().lock();       ppc_global_lock_count_().fetch_add(1);                   }                                                        } while (0)
++
++#define REX_LEAVE_GLOBAL_LOCK()                                                               do {                                                                                          if (!ppc_msr_global_lock_()) {                                                                if (ppc_msr_thread_count_() > 0) --ppc_msr_thread_count_();                               } else {                                                                                      auto old_count_ = ppc_global_lock_count_().fetch_sub(1);                                    assert(old_count_ >= 1 && "LeaveGlobalLock called without matching EnterGlobalLock");       rex::thread::global_critical_region::mutex().unlock();                                    }                                                                                         } while (0)

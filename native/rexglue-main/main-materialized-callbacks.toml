@@ -1,0 +1,127 @@
+# Original lis/addi or lis/ori address constructions plus Xenon function bodies.
+# Register tracking stops at clobbers, branches, calls and unknown instructions.
+# Extents remain SDK-inferred; evidence: main-materialized-entry-candidates.json.
+
+# Original code address load: 0x83865C00 / 0x83865C0C
+[functions."0x838658B8"]
+name = "sub_838658B8"
+
+# Original code address load: 0x8390CD28 / 0x8390CD3C
+[functions."0x8390CD08"]
+name = "sub_8390CD08"
+
+# Original code address load: 0x83A86718 / 0x83A86724
+[functions."0x83A86648"]
+name = "sub_83A86648"
+
+# Original code address load: 0x83A8B234 / 0x83A8B240
+[functions."0x83A8A180"]
+name = "sub_83A8A180"
+
+# Original code address load: 0x83B30D2C / 0x83B30D4C
+[functions."0x83B30B18"]
+name = "sub_83B30B18"
+
+# Original code address load: 0x83B30D30 / 0x83B30D54
+[functions."0x83B30B40"]
+name = "sub_83B30B40"
+
+# Original code address load: 0x83B30D34 / 0x83B30D5C
+[functions."0x83B30B68"]
+name = "sub_83B30B68"
+
+# Original code address load: 0x83B30D38 / 0x83B30D64
+[functions."0x83B30B80"]
+name = "sub_83B30B80"
+
+# Original code address load: 0x83B30CFC / 0x83B30D0C
+[functions."0x83B30B98"]
+name = "sub_83B30B98"
+
+# Original code address load: 0x83B30CF4 / 0x83B30D04
+[functions."0x83B30BB0"]
+name = "sub_83B30BB0"
+
+# Original code address load: 0x83B30CF8 / 0x83B30D08
+[functions."0x83B30BC8"]
+name = "sub_83B30BC8"
+
+# Original code address load: 0x83E850B8 / 0x83E850C4
+[functions."0x83B3A750"]
+name = "sub_83B3A750"
+
+# Original code address load: 0x83B65D10 / 0x83B65D18
+[functions."0x83B65D00"]
+name = "sub_83B65D00"
+
+# Original code address load: 0x83E56ED0 / 0x83E56ED4
+[functions."0x83E99CE0"]
+name = "sub_83E99CE0"
+
+# Original code address load: 0x83E56F90 / 0x83E56F94
+[functions."0x83E99CF8"]
+name = "sub_83E99CF8"
+
+# Original code address load: 0x83E57050 / 0x83E57054
+[functions."0x83E99D10"]
+name = "sub_83E99D10"
+
+# Original code address load: 0x83E57110 / 0x83E57114
+[functions."0x83E99D28"]
+name = "sub_83E99D28"
+
+# Original code address load: 0x83E571D0 / 0x83E571D4
+[functions."0x83E99D40"]
+name = "sub_83E99D40"
+
+# Original code address load: 0x83E57290 / 0x83E57294
+[functions."0x83E99D58"]
+name = "sub_83E99D58"
+
+# Original code address load: 0x83E57350 / 0x83E57354
+[functions."0x83E99D70"]
+name = "sub_83E99D70"
+
+# Original code address load: 0x83E57410 / 0x83E57414
+[functions."0x83E99D88"]
+name = "sub_83E99D88"
+
+# Original code address load: 0x83E574D0 / 0x83E574D4
+[functions."0x83E99DA0"]
+name = "sub_83E99DA0"
+
+# Original code address load: 0x83E57590 / 0x83E57594
+[functions."0x83E99DB8"]
+name = "sub_83E99DB8"
+
+# Original code address load: 0x83E57650 / 0x83E57654
+[functions."0x83E99DD0"]
+name = "sub_83E99DD0"
+
+# Original code address load: 0x83E57710 / 0x83E57714
+[functions."0x83E99DE8"]
+name = "sub_83E99DE8"
+
+# Original code address load: 0x83E577D0 / 0x83E577D4
+[functions."0x83E99E00"]
+name = "sub_83E99E00"
+
+# Original code address load: 0x83E57890 / 0x83E57894
+[functions."0x83E99E18"]
+name = "sub_83E99E18"
+
+# Original code address load: 0x83E57950 / 0x83E57954
+[functions."0x83E99E30"]
+name = "sub_83E99E30"
+
+# Original code address load: 0x83E57A10 / 0x83E57A14
+[functions."0x83E99E48"]
+name = "sub_83E99E48"
+
+# Original code address load: 0x83E57AD0 / 0x83E57AD4
+[functions."0x83E99E60"]
+name = "sub_83E99E60"
+
+# Original code address load: 0x83E57B78 / 0x83E57B7C
+[functions."0x83E99E78"]
+name = "sub_83E99E78"

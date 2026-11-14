@@ -1,0 +1,35 @@
+{
+  "language": "de",
+  "mnk_sensitivity": 3.0,
+  "hotkeys": {
+    "bravo_mode": "F9",
+    "partner_gear": "F6"
+  },
+  "keybinds": {
+    "a": "Space",
+    "b": "Alt,c",
+    "x": "R",
+    "y": "F",
+    "left_trigger": "RMB",
+    "right_trigger": "LMB",
+    "left_shoulder": "Q",
+    "right_shoulder": "E",
+    "lstick_up": "W",
+    "lstick_down": "S",
+    "lstick_left": "A",
+    "lstick_right": "D",
+    "lstick_press": "Shift",
+    "rstick_up": "Up",
+    "rstick_down": "Down",
+    "rstick_left": "Left",
+    "rstick_right": "Right",
+    "rstick_press": "Ctrl,Strg",
+    "dpad_up": "1",
+    "dpad_down": "3",
+    "dpad_left": "4",
+    "dpad_right": "2",
+    "back": "Z,Tab",
+    "start": "Return",
+    "guide": ""
+  }
+}

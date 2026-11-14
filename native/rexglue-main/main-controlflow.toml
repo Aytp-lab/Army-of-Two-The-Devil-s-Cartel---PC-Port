@@ -1,0 +1,24 @@
+# Original instructions checked with AO4FunctionProbe. Explicit ends are the
+# next leaf entry / padding after terminal branch or blr, not guessed lengths.
+setjmp_address = 0x83A3C0B0
+longjmp_address = 0x83A3C380
+
+[functions."0x83085670"]
+end = 0x830856A8
+[functions."0x83085698"]
+parent = 0x83085670
+
+[functions."0x83086DD8"]
+end = 0x83086E10
+[functions."0x83086E00"]
+parent = 0x83086DD8
+
+[functions."0x83086E10"]
+end = 0x83086E48
+[functions."0x83086E38"]
+parent = 0x83086E10
+
+[functions."0x83633900"]
+end = 0x83633964
+[functions."0x83633948"]
+parent = 0x83633900

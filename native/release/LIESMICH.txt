@@ -1,0 +1,92 @@
+Army of Two: The Devil's Cartel – Nativer PC-Port
+Öffentliche Testversion {VERSION}
+=================================================
+
+Fanprojekt. Nicht verbunden mit Electronic Arts oder Visceral Games. Alle Marken gehören
+ihren Eigentümern.
+
+KEINE SPIELDATEN ENTHALTEN
+--------------------------
+Dieses Paket enthält keine Spieldateien (keine Grafiken, Töne, Videos, Level). Du brauchst
+deine eigene Kopie des Spiels als ISO-Abbild der Xbox-360-Disc:
+
+  Army of Two: The Devil's Cartel, Xbox 360, Europa (Englisch/Deutsch/Italienisch)
+
+Andere Versionen werden derzeit nicht unterstützt; der Launcher prüft das beim Einrichten.
+
+SYSTEMVORAUSSETZUNGEN
+---------------------
+- Windows 10 oder 11, 64 Bit
+- Grafikkarte mit DirectX 12
+- Prozessor mit SSE4.1 (alle Prozessoren ab ca. 2008)
+- ca. 8 GB freier Speicher für die entpackten Spieldateien
+
+ERSTER START
+------------
+1. Den Ordner an einen Ort mit genug Speicher entpacken (nicht nach "Programme").
+2. AO4Launcher.exe starten.
+3. "Durchsuchen..." -> deine ISO wählen -> "Installieren".
+   Die Spieldateien werden einmalig nach game\ entpackt. Danach wird die ISO nicht mehr
+   gebraucht.
+
+SPIELEN
+-------
+Im Launcher unter "Spielen" den Modus wählen:
+- Einzelspieler
+- Splitscreen-Koop: Spieler 1 Maus/Tastatur, Spieler 2 erster Controller. Im Spiel
+  Koop/Splitscreen wählen, Spieler 2 drückt Start.
+- Online/LAN-Koop hosten oder beitreten: nur im selben Netz oder in einem virtuellen LAN
+  (Tailscale, ZeroTier, Hamachi). Der Host gibt seine angezeigte Adresse an den Mitspieler
+  weiter. Im Spiel: MISSIONEN > Xbox LIVE.
+  Beim ersten Hosten fragt Windows nach der Firewall: "Zugriff zulassen" wählen. Falls das
+  nicht reicht: LAN-Koop-Firewall.cmd (fragt nach Adminrechten, rückgängig mit -Remove).
+
+Profile: Unter "Profile" kannst du Spielerprofile anlegen und einen vorhandenen Spielstand
+importieren (Datei PROFILE_OPTIONS, z.B. aus Xenia). Spielerplatz 1 besitzt die Spielstände;
+Spielerplatz 2 ist der zweite Spieler im Splitscreen. Welche Tastatur/welcher Controller zu
+welchem Spieler gehört, stellst du unter "Spielen" beim Splitscreen ein.
+
+Steuerung: Tastenbelegung, Port-Tasten (F4/F9/F6), Maus- und Geschütz-Empfindlichkeit unter
+"Steuerung". Partner: Bravo-Modus und eigene Ausrüstung des KI-Partners unter "Partner".
+Optional unter "Einstellungen": alle Masken, Outfits und Tattoos sofort kaufbar (kosten
+weiterhin Spielgeld).
+
+TASTEN IM SPIEL
+---------------
+  F4    Port-Menü (Maus-Empfindlichkeit, Y-Achse, Ton, Spiel-Korrekturen)
+  F9    Bravo-Modus (als Bravo spielen, im Hauptmenü oder Level)
+  F6    eigene Ausrüstung für den KI-Partner an/aus
+  F2    Maus direkt / Stick-Modus
+  F3    Leistungsanzeige
+  F12   Fehlerstelle im Log markieren (für Fehlerberichte)
+Tastenbelegung: config\input-bindings.json
+
+EINSTELLUNGEN
+-------------
+Grafik, Ton, Steuerung und Spiel-Korrekturen im Launcher unter "Einstellungen".
+60 FPS ist experimentell und standardmäßig aus. Bekanntes Problem damit: gelegentlich bleibt
+ein Gegner in Deckung untätig hocken.
+
+BEKANNTE PROBLEME
+-----------------
+- Sehr selten stürzt das Spiel beim Start ab. Einfach erneut starten.
+- Online/LAN-Koop zwischen zwei PCs ist noch kaum getestet – Rückmeldungen sind besonders
+  willkommen.
+
+FEHLER MELDEN
+-------------
+1. Im Spiel an der Fehlerstelle F12 drücken.
+2. Launcher > Hilfe > "Logs für Fehlerbericht packen (ZIP)".
+3. Die ZIP-Datei mit einer kurzen Beschreibung schicken (Modus, was passiert ist).
+Die ZIP enthält nur die Ordner logs und config (keine Spielstände, keine Spieldaten).
+
+ORDNER
+------
+  bin\       Port-Programmdateien
+  config\    Einstellungen
+  game\      deine entpackten Spieldateien (nicht weitergeben!)
+  profiles\  Profile und Spielstände
+  logs\      Protokolle
+  server\    Koop-Server für den Host (eingebettetes Python)
+
+Deinstallieren: den Ordner löschen. Es werden keine Dateien außerhalb angelegt.
